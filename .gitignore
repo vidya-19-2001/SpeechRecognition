@@ -1,0 +1,3 @@
+venv/
+speaker_names.npy
+speaker_recognition_model.h5

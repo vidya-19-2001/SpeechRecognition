@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Speaker Recognition System</h1>
+
+    <h2>Register Speaker</h2>
+    <button id="start-recording-register">Start Recording for Registration</button>
+    <button id="stop-recording-register" style="display:none;">Stop Recording</button>
+
+    <h2>Identify Speaker</h2>
+    <button id="start-recording-identify">Start Recording for Identification</button>
+    <button id="stop-recording-identify" style="display:none;">Stop Recording</button>
+
+    <div id="result"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+
+
